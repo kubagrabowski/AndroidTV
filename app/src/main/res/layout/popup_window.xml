@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                             android:layout_height="match_parent">
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" tools:src="@tools:sample/avatars"
+            android:id="@+id/popup_image" android:layout_marginTop="@dimen/androitTV_margin"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginBottom="@dimen/androitTV_margin"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="@dimen/androitTV_margin" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="@dimen/androitTV_margin"/>
+</android.support.constraint.ConstraintLayout>
